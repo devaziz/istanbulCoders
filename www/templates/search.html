@@ -1,0 +1,17 @@
+<ion-view view-title="{{venu.name}}">
+  <ion-content>
+    <h1>Arama</h1>
+    <form name="search-form" ng-submit="search()">
+      <div class="list">
+        <div class="item item-input-inset">
+          <label class="item-input-wrapper">
+            <input type="text" ng-model="mainData.searchText" placeholder="Malzeme Tanýmýný Giriniz">
+          </label>
+          <button class="button button-small">
+            Ara
+          </button>
+        </div>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

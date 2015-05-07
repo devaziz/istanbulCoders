@@ -1,0 +1,12 @@
+<ion-view view-title="{{mainData.searchText}}">
+  <ion-content>
+    <ul class="list">
+      <li  class="item" >
+        test
+      </li>
+      <li class="item" ng-repeat="venu in venues" ui-sref="app.venue({venueId:venu.id})">
+        {{venu.name}}
+      </li>
+    </ul>
+  </ion-content>
+</ion-view>
