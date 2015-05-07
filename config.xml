@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.istanbulcoders845180" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>istanbulCoders</name>
+  <name>Aziz</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
@@ -9,11 +9,13 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <gap:platform name="ios" />
+  <gap:platform name="android" />	  
+  <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
-  <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
